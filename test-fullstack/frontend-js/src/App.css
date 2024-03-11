@@ -1,0 +1,20 @@
+.toDo-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  background: #b7b5b5;
+  max-width: 500px;
+  margin: 10px auto;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.toDo-delete {
+  display: flex;
+  cursor: pointer;
+}
+
+.toDo-delete svg{
+  height: 20px;
+}
